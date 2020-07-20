@@ -1,0 +1,319 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "02254824-caa1-11ea-a67c-34363b84c600",
+    "deck_config_uuid": "4830f53e-caa1-11ea-a67c-34363b84c600",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "4830f53e-caa1-11ea-a67c-34363b84c600",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    7
+                ],
+                "order": 1,
+                "perDay": 20,
+                "separate": true
+            },
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 200
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [],
+    "mid": 1583359951750,
+    "name": "Keyboard Shortcuts",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "0225789e-caa1-11ea-a67c-34363b84c600",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Text",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Cloze",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{cloze:Text}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Cloze",
+                    "ord": 0,
+                    "qfmt": "{{cloze:Text}}"
+                }
+            ],
+            "type": 1,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>Marta:&nbsp;{{c1::⌘ + Y}} (shortcut) to preview/quicklook the selected file/directory<br></div>"
+            ],
+            "flags": 0,
+            "guid": "gj>grWTvKx",
+            "note_model_uuid": "0225789e-caa1-11ea-a67c-34363b84c600",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Marta: {{c1::⌘ + Alt + P}} (shortcut) to lookup in current directory (cwd)"
+            ],
+            "flags": 0,
+            "guid": "K{fIyf~iyx",
+            "note_model_uuid": "0225789e-caa1-11ea-a67c-34363b84c600",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Marta:&nbsp;{{c1::⌘ + P}} (shortcut) for global lookup"
+            ],
+            "flags": 0,
+            "guid": "noSP8DO*-k",
+            "note_model_uuid": "0225789e-caa1-11ea-a67c-34363b84c600",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Marta:&nbsp;{{c1::⌘ + I}} (shortcut) to open the 'Get Info' window for selected file(s)/dir(s)"
+            ],
+            "flags": 0,
+            "guid": "CjS8?Lum-S",
+            "note_model_uuid": "0225789e-caa1-11ea-a67c-34363b84c600",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Marta: {{c1::Alt + 2}} (shortcut) to open Favorites menu"
+            ],
+            "flags": 0,
+            "guid": "c>{MfE6p}o",
+            "note_model_uuid": "0225789e-caa1-11ea-a67c-34363b84c600",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Marta: {{c1::Alt + 3}} (shortcut) to open the Recent Directories sub-window"
+            ],
+            "flags": 0,
+            "guid": "Re;Ph-iD5y",
+            "note_model_uuid": "0225789e-caa1-11ea-a67c-34363b84c600",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Marta: {{c1::Alt + 1}} (shortcut) to open the 'Volumes' menu"
+            ],
+            "flags": 0,
+            "guid": "y5C&<X}wnp",
+            "note_model_uuid": "0225789e-caa1-11ea-a67c-34363b84c600",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Marta: {{c1::Alt + 0}} (shortcut) to open the 'Hierarchy' menu (keyboard version of navigating by breadcrumbs)"
+            ],
+            "flags": 0,
+            "guid": "jr%iQZD6PX",
+            "note_model_uuid": "0225789e-caa1-11ea-a67c-34363b84c600",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Marta:&nbsp;{{c1::⌘ + G}} (shortcut) for 'Go to Path'"
+            ],
+            "flags": 0,
+            "guid": "hLRIZWyl6?",
+            "note_model_uuid": "0225789e-caa1-11ea-a67c-34363b84c600",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Marta: {{c1::F12}} (shortcut) to copy the absolute path of the current directory (cwd)"
+            ],
+            "flags": 0,
+            "guid": "xwNdo;tCX(",
+            "note_model_uuid": "0225789e-caa1-11ea-a67c-34363b84c600",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Marta:&nbsp;{{c1::⌘ + F12}} (shortcut) to copy the absolute path(s) of selected file(s)"
+            ],
+            "flags": 0,
+            "guid": "Ly>G5}P`4C",
+            "note_model_uuid": "0225789e-caa1-11ea-a67c-34363b84c600",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Marta: {{c1::Ctrl + H}} (shortcut) to toggle hidden files"
+            ],
+            "flags": 0,
+            "guid": "IQ(sK-ogM^",
+            "note_model_uuid": "0225789e-caa1-11ea-a67c-34363b84c600",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Marta:&nbsp;{{c1::⌘ + O}} (shortcut) to open the integrated terminal"
+            ],
+            "flags": 0,
+            "guid": "I{5t9wnDpQ",
+            "note_model_uuid": "0225789e-caa1-11ea-a67c-34363b84c600",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Marta: {{c1::Shift + F6}} (shortcut) to rename selected file/dir"
+            ],
+            "flags": 0,
+            "guid": "F|P|9d{I{v",
+            "note_model_uuid": "0225789e-caa1-11ea-a67c-34363b84c600",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Marta: {{c1::Shift + F7}} (shortcut) to create an empty file in the current working directory (cwd)"
+            ],
+            "flags": 0,
+            "guid": "nf-zf03ojW",
+            "note_model_uuid": "0225789e-caa1-11ea-a67c-34363b84c600",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Marta: {{c1::F7}} (shortcut) to create empty directory"
+            ],
+            "flags": 0,
+            "guid": "rC%p)Y_wkO",
+            "note_model_uuid": "0225789e-caa1-11ea-a67c-34363b84c600",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Marta:&nbsp;{{c1::⌘ + Enter}} (shortcut) to trigger 'Open With' menu when a file is selected"
+            ],
+            "flags": 0,
+            "guid": "Amu)Lg+lZ-",
+            "note_model_uuid": "0225789e-caa1-11ea-a67c-34363b84c600",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Marta:&nbsp;<div>{{c1::⌘&nbsp;+ Right Arrow}} (shortcut) to clone current tab to right pane</div>"
+            ],
+            "flags": 0,
+            "guid": "b0ZsYZ~xu|",
+            "note_model_uuid": "0225789e-caa1-11ea-a67c-34363b84c600",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Marta:&nbsp;{{c1::⌘ + Left Arrow}} (shortcut) to clone current tab to left pane"
+            ],
+            "flags": 0,
+            "guid": "Qzx/+(-#kP",
+            "note_model_uuid": "0225789e-caa1-11ea-a67c-34363b84c600",
+            "tags": []
+        }
+    ]
+}
